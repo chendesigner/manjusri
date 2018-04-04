@@ -229,10 +229,10 @@ module.exports = {
         var errmsg;
         var resWrap = createResponseWrap(res);
 
-        if (!req.session || !req.session.user)
-            return resWrap.setError(400);
-        var openid = req.session.user.openid;
-        //var openid = 'o0ghywcfW_2Dp4oN-7NADengZAVM';
+        //if (!req.session || !req.session.user)
+        //    return resWrap.setError(400);
+        // var openid = req.session.user.openid;
+        var openid = 'o0ghywcfW_2Dp4oN-7NADengZAVM';
 
         var lordid;
         var viewData = {
